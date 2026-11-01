@@ -22,10 +22,11 @@ export default function ProductCard({ product, onOpen }) {
         </div>
       </div>
 
+      {hasDiscount && (
+        <span className="product-card__badge">{discountBadge(product.discountPercentage)}</span>
+      )}
+
       <div className="product-card__media">
-        {hasDiscount && (
-          <span className="product-card__badge">{discountBadge(product.discountPercentage)}</span>
-        )}
         <img
           src={product.thumbnail}
           alt={product.title}
