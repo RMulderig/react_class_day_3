@@ -1,0 +1,6 @@
+Initial prompt
+Create a mockup of a two page application. One page is a product card with price, discount, title, in or our of stock, , brand and an image. The order on the card from top to bottom is title brand price image discount price
+Discounted price is	price × (1 -discountPercentage ÷ 100), rounded to cents. 
+Stock label	0 is "Out of stock"; 1 to 5 is "Low stock"; more than 5 is "In stock"
+React with JavaScript, not TypeScript. Build only the card and a demo grid.
+
