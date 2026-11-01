@@ -1,8 +1,8 @@
 .product-card {
   display: flex;
   flex-direction: column;
-  background: var(--card);
-  border: 1px solid var(--border);
+  background: var(--surface-2);
+  border: 3px solid #000;
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
